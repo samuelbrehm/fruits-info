@@ -16,7 +16,6 @@ struct ContentView: View {
     
     // MARK: - BODY
     var body: some View {
-        //        Text("Teste")
         NavigationView {
             List {
                 ForEach(fruits.shuffled()) { item in
