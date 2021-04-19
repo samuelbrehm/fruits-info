@@ -34,6 +34,7 @@ struct FruitRowView: View {
             }
             
         } //: HSTACK
+        .cornerRadius(6)
     }
 }
 
